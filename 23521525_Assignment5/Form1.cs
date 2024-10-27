@@ -39,15 +39,18 @@ namespace _23521525_Assignment5
                 try
                 {
                     HttpResponseMessage response = await client.GetAsync(apiUrl);
-                    response.EnsureSuccessStatusCode();
+                    response.EnsureSuccessStatusCode(); //kiểm tra HTTP có phản hồi thành công hay ko (200-299)
+                    //nếu không thành công thì tạo ngoại lệ, chuyển sang catch
 
-                    string responseBody = await response.Content.ReadAsStringAsync();
-                    JObject weatherData = JObject.Parse(responseBody);
+                    string responseBody = await response.Content.ReadAsStringAsync(); //đọc phản hồi và chuyển sang json
+                    JObject weatherData = JObject.Parse(responseBody); // chuyển chuỗi json thành đối tượng jobject để dễ truy cập
 
+                    //lấy mô tả, nhiệt độ, độ ấm
                     string description = weatherData["weather"][0]["description"].ToString();
                     string temp = weatherData["main"]["temp"].ToString();
                     string humidity = weatherData["main"]["humidity"].ToString();
 
+                    //cập nhật thông tin vào label
                     lblWeatherInfo.Text = $"Thời tiết: {description}\nNhiệt độ: {temp}°C\nĐộ ẩm: {humidity}%";
                 }
                 catch (HttpRequestException ex)
