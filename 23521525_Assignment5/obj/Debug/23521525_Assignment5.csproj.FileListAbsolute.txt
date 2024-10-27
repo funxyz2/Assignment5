@@ -1,0 +1,13 @@
+E:\ass 5\Ass 5\23521525_Assignment5\23521525_Assignment5\bin\Debug\23521525_Assignment5.exe.config
+E:\ass 5\Ass 5\23521525_Assignment5\23521525_Assignment5\bin\Debug\23521525_Assignment5.exe
+E:\ass 5\Ass 5\23521525_Assignment5\23521525_Assignment5\bin\Debug\23521525_Assignment5.pdb
+E:\ass 5\Ass 5\23521525_Assignment5\23521525_Assignment5\bin\Debug\Newtonsoft.Json.dll
+E:\ass 5\Ass 5\23521525_Assignment5\23521525_Assignment5\bin\Debug\Newtonsoft.Json.xml
+E:\ass 5\Ass 5\23521525_Assignment5\23521525_Assignment5\obj\Debug\23521525_Assignment5.csproj.AssemblyReference.cache
+E:\ass 5\Ass 5\23521525_Assignment5\23521525_Assignment5\obj\Debug\_23521525_Assignment5.Form1.resources
+E:\ass 5\Ass 5\23521525_Assignment5\23521525_Assignment5\obj\Debug\_23521525_Assignment5.Properties.Resources.resources
+E:\ass 5\Ass 5\23521525_Assignment5\23521525_Assignment5\obj\Debug\23521525_Assignment5.csproj.GenerateResource.cache
+E:\ass 5\Ass 5\23521525_Assignment5\23521525_Assignment5\obj\Debug\23521525_Assignment5.csproj.CoreCompileInputs.cache
+E:\ass 5\Ass 5\23521525_Assignment5\23521525_Assignment5\obj\Debug\23521525.A8E431D6.Up2Date
+E:\ass 5\Ass 5\23521525_Assignment5\23521525_Assignment5\obj\Debug\23521525_Assignment5.exe
+E:\ass 5\Ass 5\23521525_Assignment5\23521525_Assignment5\obj\Debug\23521525_Assignment5.pdb
